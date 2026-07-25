@@ -106,7 +106,7 @@
         <div><p class="kicker"><span></span> Start a conversation</p><h2 id="contact-title">Tell me about<br>your <em>project.</em></h2></div>
         <button class="modal-close" type="button" data-contact-close aria-label="Close contact form">×</button>
       </div>
-      <form name="contact" method="POST" action="/thanks.html" data-netlify="true" netlify-honeypot="bot-field">
+      <form name="contact" method="POST" action="/thanks/" netlify data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="contact">
         <p class="form-hidden"><label>Don't fill this out: <input name="bot-field"></label></p>
         <div class="field-row">
@@ -124,6 +124,7 @@
         <label>Tell me a little about the project<textarea name="message" rows="5" placeholder="What are you hoping to achieve?" required></textarea></label>
         <div class="form-foot"><p>Prefer email? <a href="mailto:me@phz3.net">me@phz3.net</a></p><button type="submit">Send enquiry <span>↗</span></button></div>
       </form>
+      <a class="form-success-link" href="/thanks/" tabindex="-1" aria-hidden="true">Form confirmation</a>
     </section>
   </div>
 </main>

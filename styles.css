@@ -64,6 +64,7 @@ h1 em, h2 em { font-family:Georgia, serif; font-weight:400; }
 .modal-panel textarea { resize:vertical; min-height:130px; }
 .modal-panel input:focus,.modal-panel select:focus,.modal-panel textarea:focus { border-color:var(--ink); box-shadow:0 0 0 2px var(--acid); }
 .form-hidden { position:absolute; left:-9999px; }
+.form-success-link { position:absolute; width:1px; height:1px; overflow:hidden; clip:rect(0 0 0 0); white-space:nowrap; }
 .form-foot { display:flex; align-items:center; justify-content:space-between; border-top:1px solid #cbc9c0; padding-top:25px; }
 .form-foot p { font:14px Georgia,serif; color:#65635d; }
 .form-foot p a { border-bottom:1px solid; }
