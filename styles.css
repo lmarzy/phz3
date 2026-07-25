@@ -55,11 +55,14 @@ h1 em, h2 em { font-family:Georgia, serif; font-weight:400; }
 .project-visual { min-height:440px; position:relative; overflow:hidden; display:grid; place-items:center; }
 .project-visual.traders { background:#dce2c8; }
 .project-visual.quizo { background:#d5c8ff; }
+.project-visual.rapid { background:#dedbd2; }
 .visual-label { position:absolute; top:24px; left:25px; color:#383832; background:rgba(241,240,233,.9); border-radius:30px; padding:9px 13px; font-size:10px; letter-spacing:1px; z-index:2; backdrop-filter:blur(8px); }
 .project-screenshot { display:block; width:86%; height:auto; aspect-ratio:16/9; object-fit:cover; border-radius:7px; box-shadow:0 28px 70px #11110f3d; transform:rotate(-1.4deg); transition:transform .45s ease; }
 .project:hover .project-screenshot { transform:rotate(0) scale(1.015); }
 .project-visual.quizo .project-screenshot { transform:rotate(1.3deg); }
 .project:hover .project-visual.quizo .project-screenshot { transform:rotate(0) scale(1.015); }
+.project-visual.rapid .project-screenshot { transform:rotate(-.7deg); }
+.project:hover .project-visual.rapid .project-screenshot { transform:rotate(0) scale(1.015); }
 .dashboard-mock { width:80%; height:68%; background:#f7f5ed; border-radius:7px; box-shadow:0 25px 70px #4d563d3d; display:flex; color:#20221e; transform:rotate(-2deg); }
 .mock-side { width:19%; padding:20px; border-right:1px solid #deddd5; display:flex; flex-direction:column; gap:18px; }
 .mock-side b { color:#6b8e2a; margin-bottom:18px; }.mock-side i{height:6px;background:#d1d0c8;border-radius:6px}.mock-main{padding:28px;flex:1}.mock-main small{display:block;color:#888}.mock-main strong{display:block;font-size:22px;margin:5px 0 24px}.mock-stats{display:flex;gap:10px}.mock-stats i{height:45px;flex:1;background:#e8e7df;border-radius:4px}.mock-chart{margin-top:15px;height:90px;border:1px solid #e0dfd7;position:relative;overflow:hidden}.mock-chart span{position:absolute;width:130%;height:75px;border-top:3px solid #85b139;transform:rotate(-8deg);top:55px;left:-15px}
