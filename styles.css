@@ -115,7 +115,7 @@ h1 em, h2 em { font-family:Georgia, serif; font-weight:400; }
 .project-copy>div { display:flex; gap:20px; font-size:10px; text-transform:uppercase; letter-spacing:1px; color:#8b8a84; }
 .project-copy>div p { margin:0; }.project-copy h3 { font-size:clamp(45px,5vw,74px); letter-spacing:-.06em; margin:70px 0 20px; }.project-copy>p { color:#adaca5; font:17px/1.55 Georgia,serif; max-width:500px; }.project-copy>b { margin-top:auto; font-size:12px; text-transform:uppercase; letter-spacing:1px; }.project-copy>b span { color:var(--acid); margin-left:8px; }
 .experience-content>p { max-width:580px; font:19px/1.55 Georgia,serif; margin:-42px 0 70px; color:#55544f; }
-.logo-grid { display:grid; grid-template-columns:repeat(4,1fr); border-top:1px solid #cbc9c0; border-left:1px solid #cbc9c0; }
+.logo-grid { display:grid; grid-template-columns:repeat(5,1fr); border-top:1px solid #cbc9c0; border-left:1px solid #cbc9c0; }
 .company-logo { min-height:145px; border-right:1px solid #cbc9c0; border-bottom:1px solid #cbc9c0; display:flex; align-items:center; justify-content:center; gap:9px; padding:25px; transition:.2s; }
 .company-logo:hover { background:#f7f6f0; }
 .company-logo img { display:block; width:auto; max-width:145px; max-height:54px; object-fit:contain; filter:grayscale(1); opacity:.76; transition:.2s; }
